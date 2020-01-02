@@ -1,11 +1,4 @@
-/*
-Student Name: Sevde Sarıkaya
-Student Number:2017400081
-Project Number: 4
-Compile Status: [SUCCESS]
-Running Status: [SUCCESS]
-Notes: Anything you want to say about your code that will be helpful in the grading process.
-*/
+
 #include "HelpStudents.h"
 
 #include <set>
