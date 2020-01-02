@@ -1,7 +1,3 @@
-# Cmpe 250 Assignment 4
-
-* **Deadline:** 03.12.2019 Tuesday @23:00, very strict.
-* For your questions on the project, please contact with your student teaching assistant Kayacan Vesek via [kayacanvesek@gmail.com](mailto:kayacanvesek@gmail.com).
 
 ## Description
 
@@ -21,7 +17,6 @@ In Anti-Taurus Mountains, there are N registered nodes (i.e., reference points t
 - The **fourth student** is greedy and when (s)he is in a node, (s)he chooses the shortest edge out of that node. However, (s)he can use the same edge only once. When (s)he reaches the summit, his/her journey finishes. Note that when there are two shortest edges with same length, (s)he picks the one with the lower edge number(i).
 - The **fifth student** has a secret power, (s)he can teleport between adjacent nodes, so it takes 0 time to travel between them. However, to recharge that secret power, (s)he needs to pass two edges, and (s)he does not have that secret power at the beginning of his/her journey. Unlike other four students, (s)he can use the same edge multiple times, so in the first move, (s)he may go N_1->N_2 and N_2->N_1 to recharge his/her secret power. (S)he cannot store his/her secret power and must use it right away after after gaining it.
 
-**Important note:** Only **fifth student** can use the same edge multiple times. Other four students can use the same edge only once.
 
 All five students need your help to find the path they should follow. Your task is to calculate the path that each student should follow.
 
@@ -62,10 +57,6 @@ M (number of edges) <= 100000
 
 W_i <= 1000000 (**Note that some answers may exceed integer range. You must use ```long long int``` type for the answers.** )
 
-## Grading
-Each student type (from one to five) will consult you in 20% of the test cases, so you will get 20 points for the correct implementation of each student type.
-
-In other words, if you find correct answers for three students (with correct implementation) and find incorrect answers for other two, then you will get 60 (20x3 + 0x2) points in this project.
 
 ## Sample Input 1
 
@@ -173,21 +164,3 @@ In other words, if you find correct answers for three students (with correct imp
 ```
 
 
-## Important notes
-
-* Your code will be compiled with `cmake CMakeLists.txt && make` command. You are expected to make sure that your code runs in the provided virtual machine environment.
-* Your code is expected to produce the correct output in **two seconds**. Any test case that lasts more than two seconds will be counted as wrong.
-* If you get the "Segmentation fault" error due to recursive calls, you can try to increase stack size by using ```ulimit -s 100005``` command.
-* Examples we provide will not be used in grading your projects!
-
-
-## Submission Policy
-You are supposed to use the Git system provided to you for all projects. No other means of submission will be accepted. Also, pay attention to the following points:
-
-* All source codes are checked automatically for similarity with other submissions and exercises from previous years. Make sure you write and submit your own code. Plagiarism and any other forms of cheating will have serious consequences, including getting “-100” as the project score and failing the course.
-* Make sure you document your code with simple inline comments and use meaningful variable names. Do not over-comment, or make your variable names unnecessarily long.
-* If you want to make any changes to your project, you should do it before the submission system closes. Your changes will not be accepted by e-mail. Connectivity problems to the Internet or to GitHub in the last few minutes are not valid excuses for being unable to submit. You should not risk leaving your submission to the last few minutes. After uploading to GitHub, check to make sure that your project appears there.
-* We will test your code with different input combinations, so we recommend you to test your code with different input combinations (written by you) as well.
-* Deadline is 3 December 2019, 23:00. 
-
-**Good luck!**
